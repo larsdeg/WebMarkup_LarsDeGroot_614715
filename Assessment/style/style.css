@@ -10,7 +10,7 @@ html {
     grid-gap: 2em 1em;
     grid-template-rows: 3em;
     grid-template-areas:
-      "header header logo"
+      "logo menu menu"
       "main main aside"
       "secondary secondary empty"
       "sport sport sport"
@@ -20,6 +20,8 @@ html {
 
 #NavBar {
   list-style-type: none;
+  grid-area: menu;
+  position: fixed;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -40,6 +42,11 @@ li a {
 
 li a:hover {
   background-color: #AAAAAA;
+}
+
+#maincontent {
+	grid-area: main;
+	margin-top: 5%;
 }
 
 
