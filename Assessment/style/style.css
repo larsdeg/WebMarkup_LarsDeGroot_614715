@@ -93,5 +93,16 @@ html {
 	font-style: bold;
 }
 
+#ListSport {
+	list-style-type: none;
+}
+
+.PicSport {
+	width: 10%;
+	height: 10%;
+	
+}
+
+
 
 
