@@ -31,11 +31,11 @@ html {
   background-color: #2699FB;
 }
 
-li {
+.NavList {
   float: left;
 }
 
-li a {
+.NavList a {
   display: block;
   color: white;
   text-align: center;
@@ -43,7 +43,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.NavList a:hover {
   background-color: #AAAAAA;
 }
 
@@ -78,6 +78,14 @@ li a:hover {
 
 #footercontent {
 	grid-area: footer;
+}
+
+.toDoList {
+	font-style: italic;
+}
+
+.pVet {
+	font-style: bold;
 }
 
 
