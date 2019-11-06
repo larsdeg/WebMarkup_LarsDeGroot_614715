@@ -1,0 +1,46 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	display: grid;
+    margin: 0 2em;
+    margin-top: 4%;
+    grid-template-columns: 2fr 6fr 4fr;
+    grid-gap: 2em 1em;
+    grid-template-rows: 3em;
+    grid-template-areas:
+      "header header logo"
+      "main main aside"
+      "secondary secondary empty"
+      "sport sport sport"
+      "contact contact contact"
+      "footer footer footer";
+}
+
+#NavBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2699FB;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #AAAAAA;
+}
+
+
+
