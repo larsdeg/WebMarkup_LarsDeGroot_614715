@@ -74,10 +74,15 @@ html {
 
 #contactcontent {
 	grid-area: contact;
+	margin-bottom: 1em;
 }
 
 #footercontent {
 	grid-area: footer;
+	background-color: #2699FB;
+	text-color: #000000;
+	text-align: center;
+	margin: -2em;
 }
 
 .toDoList {
