@@ -32,7 +32,7 @@
   
   @media (max-width: 480px) {
     .fullscreen-bg {
-      background: url('../img/videoframe.jpg') center center / cover no-repeat;     
+      background: url('../img/videoframes.jpg') center center / cover no-repeat;     
     }
     .container {
         color: #000000;
