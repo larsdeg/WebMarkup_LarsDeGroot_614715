@@ -1,0 +1,26 @@
+#cookiePopup + #cookiebtn {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#cookiebtn {
+	display: none;
+}
+
+#cookiebtn:checked + #cookiePopup {
+	bottom: -100%;
+}
+
+label {
+	display: inline-block;
+	padding: 0.3em;
+	background: #AAAAAA;
+}
+
+label:hover {
+	background: #444444;
+	cursor: pointer;
+}
+
+#
