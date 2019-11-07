@@ -1,0 +1,131 @@
+html {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	display: grid;
+    margin: 0 2em;
+    margin-top: 4%;
+    grid-template-columns: 2fr 6fr 4fr;
+    grid-gap: 2em 1em;
+    grid-template-rows: 3em;
+    grid-template-areas:
+      "menu menu menu"
+	  "title title title"
+      "main main aside"
+      "secondary secondary empty"
+      "sport sport sport"
+      "contact contact contact"
+      "footer footer footer";
+}
+
+#NavBar {
+  list-style-type: none;
+  grid-area: menu;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2699FB;
+}
+
+.NavList {
+  float: left;
+}
+
+.NavList a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+
+.NavList a:hover {
+  background-color: #AAAAAA;
+}
+
+
+#title {
+	grid-area: title;
+}
+
+#maincontent {
+	grid-area: main;
+	margin-top: 1%;
+}
+
+#secondarycontent {
+	grid-area: secondary;
+}
+
+#sportcontent {
+	grid-area: sport;
+}
+
+#referralcontent {
+	padding: 2em;
+	border-style: double;
+	border-color: #000000;
+	grid-area: aside;
+}
+
+#contactcontent {
+	grid-area: contact;
+	margin-bottom: 1em;
+}
+
+#footercontent {
+	grid-area: footer;
+	background-color: #2699FB;
+	text-color: #000000;
+	text-align: center;
+	margin: -2em;
+}
+
+.toDoList {
+	font-style: italic;
+}
+
+.pVet {
+	font-style: bold;
+}
+
+#ListSport li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+  float: left;
+}
+
+#SportFooter {
+	bottom: 0;
+}
+
+.PicSport {
+	width: 80px;
+	height: 80px;
+	
+}
+
+.MainPics {
+	height: 100px;
+	width: 200px;
+}
+
+#SecondaryPics1 {
+	height: 100px;
+	width: 150px;
+}
+
+#SecondaryPics2 {
+	height: 300px;
+	width: 150px;
+}
+
+
+
+
+
