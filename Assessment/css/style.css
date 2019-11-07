@@ -49,6 +49,9 @@ html {
   background-color: #AAAAAA;
 }
 
+#hamburgermenu {
+	display: none;
+}
 
 #title {
 	grid-area: title;
@@ -172,6 +175,9 @@ html {
   background-color: #AAAAAA;
 }
 
+#hamburgermenu {
+	display: none;
+}
 
 #title {
 	grid-area: title;
@@ -180,6 +186,7 @@ html {
 #maincontent {
 	grid-area: main;
 	margin-top: 1%;
+	width: 100%;
 }
 
 #secondarycontent {
