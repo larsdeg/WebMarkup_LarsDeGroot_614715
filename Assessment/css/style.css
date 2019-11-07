@@ -21,70 +21,10 @@ html {
       "footer footer footer";
 }
 
-#hamburgerfoto {
-	height: 50px;
-	width: 50px;
-	
+#HamburgerMenu {
+	display: none;
 }
 
-#dropbtn {
-	text-align: center;
-}
-
-
-#DropList {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 6em;
-	overflow: hidden;
-	background-color: #FFFFFF;
-}
-
-#dropdown {
-	float: left;
-}
-
-#dropdown, #dropbtn {
-	display: inline-block;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-
-#dropdown a:hover, .dropdown:hover .dropbtn {
-	background-color: #2699FB;
-}
-
-#dropdown.dropdown {
-  display: inline-block;
-}
-
-#dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f5f5f5;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-#dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-#dropdown-content a:hover {
-	background-color: #707070;
-}
-
-#dropdown:hover #dropdown-content {
-  display: block;
-}
 
 #NavBar {
   list-style-type: none;
@@ -209,7 +149,7 @@ html {
       "footer footer footer";
 }
 
-#hamburgerMenu {
+#HamburgerMenu {
 	display: none;
 }
 
@@ -343,9 +283,79 @@ html {
       "footer";
 }
 
+
 #Hoofdmenu {
 	display: none;
 }
+
+#hamburgerfoto {
+	height: 50px;
+	width: 50px;
+	
+}
+
+
+#dropbtn {
+	text-align: center;
+}
+
+
+#DropList {
+	grid-area: menu;
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 5em;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+#dropdown {
+	float: left;
+}
+
+#dropdown, #dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#dropdown a:hover, .dropdown:hover .dropbtn {
+	background-color: #2699FB;
+}
+
+#dropdown.dropdown {
+  display: inline-block;
+}
+
+#dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f5f5f5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+#dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+#dropdown-content a:hover {
+	background-color: #707070;
+}
+
+#dropdown:hover #dropdown-content {
+  display: block;
+}
+
 
 #title {
 	grid-area: title;
