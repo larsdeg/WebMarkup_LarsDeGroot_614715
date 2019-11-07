@@ -25,7 +25,6 @@ html {
 	display: none;
 }
 
-
 #NavBar {
   list-style-type: none;
   grid-area: menu;
@@ -284,7 +283,7 @@ html {
 }
 
 
-#Hoofdmenu {
+#HamburgerMenu {
 	display: none;
 }
 
