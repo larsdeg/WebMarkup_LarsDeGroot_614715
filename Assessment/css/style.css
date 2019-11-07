@@ -49,9 +49,7 @@ html {
   background-color: #AAAAAA;
 }
 
-#hamburgermenu {
-	display: none;
-}
+
 
 #title {
 	grid-area: title;
