@@ -101,7 +101,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 }
 
 .pVet {
-	font-style: bold;
+	font-weight: bold;
 }
 
 #ListSport li {
@@ -232,7 +232,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 }
 
 .pVet {
-	font-style: bold;
+	font-weight: bold;
 }
 
 #ListSport li {
@@ -403,7 +403,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 }
 
 .pVet {
-	font-style: bold;
+	font-weight: bold;
 }
 
 #ListSport li {
