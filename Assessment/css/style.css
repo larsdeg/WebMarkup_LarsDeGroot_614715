@@ -91,7 +91,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 #footercontent {
 	grid-area: footer;
 	background-color: #2699FB;
-	text-color: #000000;
+	color: #000000;
 	text-align: center;
 	margin: -2em;
 }
@@ -222,7 +222,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 #footercontent {
 	grid-area: footer;
 	background-color: #2699FB;
-	text-color: #000000;
+	color: #000000;
 	text-align: center;
 	margin: -2em;
 }
@@ -393,7 +393,7 @@ src: url("fonts/OpenSans-Regular.ttf");
 #footercontent {
 	grid-area: footer;
 	background-color: #2699FB;
-	text-color: #000000;
+	color: #000000;
 	text-align: center;
 	margin: -2em;
 }
