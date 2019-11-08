@@ -1,4 +1,0 @@
-Student name: Lars de Groot
-Student number: 614715
-Student class: INF1SB
-GitHub URL: https://github.com/larsdeg/WebMarkup_LarsDeGroot_614715.git
