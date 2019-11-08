@@ -2,6 +2,11 @@ html {
 	font-family: Arial, Helvetica, Ubuntu, OpenSans, sans-serif;
 }
 
+@font-face {
+font-family: "OpenSans";
+src: url("fonts/OpenSans-Regular.ttf");
+}
+
 @media (min-width: 1280px) { /* PC */
 
 #container {
